@@ -51,9 +51,16 @@
 <script>
   export default {
   }
-
 </script>
 
 <style lang="scss" scoped>
-
+  .p-website{
+    margin-top: 10%;
+  }
+  @media screen and (min-width: 768px) {
+    .p-website{
+      margin-top: 0;
+    }
+  }
 </style>
+
