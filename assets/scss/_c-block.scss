@@ -7,8 +7,7 @@
 }
 .c-block_number {
   padding-top: 8px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-color: #B43B3E;
   width: 76px;
   height:38px;
@@ -17,16 +16,15 @@
   text-align: center;
 }
 .c-block_title {
-  padding-top: 10px;
-  padding-bottom: 16px;
+  padding: 3% 0 3% 3% ;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 200%;
   color: #fff;
   background-image: url("https://placehold.jp/150x150.png");
   background-size: cover;
   span {
     display: block;
-    font-size: 20px;
+    font-size: 80%;
     font-weight: normal;
   }
 }
@@ -66,6 +64,14 @@
     width: 90%;
     margin: 0 auto;
     padding-top: 3%;
+  }
+  .c-block_title {
+    text-align: left;
+    padding-left: 2%;
+    span{
+      display: inline-block;
+
+    }
   }
   .c-block_case{
     margin-top: 3%;
