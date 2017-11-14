@@ -1,6 +1,5 @@
 <template>
   <section class="p-hero">
-    <img class="p-hero_baseImage" src="https://placehold.jp/150x90.png">
     <div class="p-hero_content">
       <div class="p-hero_heading">
         「作る」だけじゃなく、<br>
@@ -10,6 +9,7 @@
         「作る」だけじゃなく、「伝える」「語り合う」
       </div>
       <div class="p-hero_media">
+        <div class="c-bg"></div>
         <div class="c-media">
           <div class="c-media_number">01</div>
           <div class="c-media_container">
@@ -59,6 +59,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
 </template>
@@ -73,22 +74,27 @@
   .p-hero {
     position: relative;
     height: 1130px;
+    background-image: url('http://placeimg.com/640/340/people/sepia');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 100;
   }
+  .c-bg{
+    background-position: top;
+    position: absolute;
+  }
+
   .p-hero_baseImage {
-    background-image: url('https://placehold.jp/150x150.png');
     width: 100%;
   }
   .p-hero_content {
-    position: absolute;
-    height: 33%;
+    height: 107%;
     left: 0;
     top: 0;
-    background: rgba(195,80,79,0.65);;
-    /*background-color: #C3504F;*/
-    /*opacity: 0.65;*/
+    background: #b43b3e;
   }
   .p-hero_heading {
-    padding-top: 40px;
+    padding-top: 7%;
     text-align: center;
     color: #FFF;
     font-size: 24px;
@@ -101,12 +107,31 @@
     letter-spacing: 2px;
   }
   .p-hero_media {
-    margin-top: 30px;
+    margin-top: 7%;
+    padding-top: 7%;
     text-align: center;
   }
   @media screen and (min-width: 768px) {
-    .p-hero {
+    .p-hero_media {
+      padding-top: 7%;
+    }
+    .p-hero_media {
+      margin-top: 0;
+    }
+    .c-bg {
+      position: absolute;
+      background-color: #B43B3E;
+      height: 81%;
+      width: 100%;
+      z-index: -100;
+      margin-top: 13%;
+    }
+    .p-hero_content {
+      position: absolute;
+      height: 44%;
+      left: 0;
+      top: 0;
+      background: rgba(195,80,79,0.65);
     }
   }
-
 </style>
