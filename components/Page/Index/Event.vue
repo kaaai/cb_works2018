@@ -9,20 +9,22 @@
         </p>
         <div class="c-block_container_inner">
           <div class="c-balloon">
-            <div class="c-balloon_text">スマートフォン対応がしたい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">大規模サイトでスタイルガイドでCSSを管理したい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">プログレッシブWebにしたい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">サイトの高速化に対応したい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
+            <div>
+              <div class="c-balloon_text">スマートフォン対応がしたい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+              <div class="c-balloon">
+              <div class="c-balloon_text">大規模サイトでスタイルガイドでCSSを管理したい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+              <div class="c-balloon">
+              <div class="c-balloon_text">プログレッシブWebにしたい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+              <div class="c-balloon">
+              <div class="c-balloon_text">サイトの高速化に対応したい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+            </div>
           </div>
           <p class="c-block_sum">
             複雑化するシステム構築の課題を、

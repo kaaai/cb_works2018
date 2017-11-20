@@ -1,16 +1,14 @@
 .c-block {
   text-align: center;
-  padding-top: 15%;
 }
 .c-block_container {
   background-color: #fff;
 }
 .c-block_number {
-  padding-top: 8px;
+  padding-top: 4%;
   margin: 0 auto;
   background-color: #B43B3E;
-  width: 76px;
-  height:38px;
+  width: 14%;
   border-radius:38px 38px 0 0;
   color: #FFF;
   text-align: center;
@@ -32,12 +30,13 @@
   padding: 0 10px 30px 10px;
 }
 .c-block_sum {
-  font-size: 24px;
+  font-size: 2rem;
   color: #B43B3E;
   text-align: center;
+  margin: 5% 3%;
 }
 .c-block_desc {
-  font-size: 20px;
+  font-size: 160%;
   text-align: left;
   line-height: 36px;
   span {
@@ -47,7 +46,7 @@
 .c-block_label {
   background-color: #F5F1F1;
   padding: 6px 0;
-  font-size: 18px;
+  font-size: 2rem;
 }
 .c-block_case {
   text-align: justify;
@@ -55,6 +54,7 @@
   letter-spacing: 1px;
   padding-top: 10px;
   padding-bottom: 30px;
+  font-size: 160%;
 }
 .c-block_button {
   text-align: right;
@@ -65,12 +65,15 @@
     margin: 0 auto;
     padding-top: 3%;
   }
+  .c-block_number {
+    width: 6%;
+    padding-top: 2%;
+  }
   .c-block_title {
     text-align: left;
     padding-left: 2%;
     span{
       display: inline-block;
-
     }
   }
   .c-block_case{

@@ -8,13 +8,14 @@
       <div class="p-hero_desc">
         「作る」だけじゃなく、「伝える」「語り合う」
       </div>
-      <div class="p-hero_media">
-        <div class="c-bg"></div>
+    </div>
+    <div class="p-hero_media">
+      <div class="c-media_box">
         <div class="c-media">
-          <div class="c-media_number">01</div>
+          <div class="c-media_number"><span>01</span></div>
           <div class="c-media_container">
             <p class="c-media_title">Web制作</p>
-            <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
+            <img src="/images/service_list01.jpg" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
@@ -26,7 +27,7 @@
           <div class="c-media_number">02</div>
           <div class="c-media_container">
             <p class="c-media_title">システム開発</p>
-            <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
+            <img src="/images/service_list02.jpg" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
@@ -38,7 +39,7 @@
           <div class="c-media_number">03</div>
           <div class="c-media_container">
             <p class="c-media_title">技術顧問</p>
-            <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
+            <img src="/images/service_list03.jpg" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
@@ -50,7 +51,7 @@
           <div class="c-media_number">04</div>
           <div class="c-media_container">
             <p class="c-media_title">イベント</p>
-            <img src="https://placehold.jp/150x150.png" class="c-media_thumb">
+            <img src="/images/service_list04.jpg" class="c-media_thumb">
             <p class="c-media_sum">
               最新技術で<br>
               しっかりサポート
@@ -59,8 +60,8 @@
           </div>
         </div>
       </div>
-
     </div>
+
   </section>
 </template>
 
@@ -71,67 +72,63 @@
 </script>
 
 <style lang="scss" scoped>
-  .p-hero {
-    position: relative;
-    height: 1130px;
-    background-image: url('http://placeimg.com/640/340/people/sepia');
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 100;
-  }
   .c-bg{
     background-position: top;
     position: absolute;
   }
-
   .p-hero_baseImage {
     width: 100%;
   }
   .p-hero_content {
-    height: 107%;
-    left: 0;
-    top: 0;
-    background: #b43b3e;
+    height: 500px;
+    width: 100%;
+    background-color: #B43B3E;
+    position: absolute;
+    z-index: 1000;
   }
   .p-hero_heading {
     padding-top: 7%;
     text-align: center;
     color: #FFF;
-    font-size: 24px;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
+    font-size: 220%;
   }
   .p-hero_desc {
-    margin-top: 10px;
-    text-align: center;
+    font-size: 50%;
+    letter-spacing: 3px;
     color: #FFF;
-    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
   }
   .p-hero_media {
-    margin-top: 7%;
-    padding-top: 7%;
-    text-align: center;
+    background-color: #B43B3E;
+    padding-bottom: 4%;
   }
-  @media screen and (min-width: 768px) {
-    .p-hero_media {
-      padding-top: 7%;
+    .p-hero{
+      overflow: hidden;
     }
     .p-hero_media {
-      margin-top: 0;
-    }
-    .c-bg {
-      position: absolute;
-      background-color: #B43B3E;
-      height: 81%;
+      text-align: center;
       width: 100%;
-      z-index: -100;
-      margin-top: 13%;
+    }
+    .p-hero_content {
+      height: 0;
+      width: 100%;
+      background-color: #b43b3e;
+      z-index: 1000;
+    }
+
+  @media screen and (min-width: 768px) {
+    .p-hero_desc {
+      font-size: 150%;
     }
     .p-hero_content {
       position: absolute;
-      height: 44%;
-      left: 0;
-      top: 0;
-      background: rgba(195,80,79,0.65);
+      background-image: url("/static/images/service_top.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 500px;
     }
   }
 </style>
