@@ -10,7 +10,8 @@
       <span class="square"></span>
       <div class="c-contact_title">Webにまつわるお悩み、ご相談はお気軽にchatboxまで。</div>
       <div class="c-form_btn">
-        <div class="c-form_info">
+        <div>
+
             <span>お問い合わせフォームへ</span>
           <i class="fa fa-angle-right fa-lg" aria-hidden="true"></i>
         </div>
@@ -37,8 +38,10 @@
         <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
       </div>
     </div>
+
   </section>
 </template>
+
 <script>
   export default {
   }
@@ -67,7 +70,7 @@
     color: #fff;
     letter-spacing: 2px;
     div:nth-child(1){
-      font-size: 150%;
+      font-size: 110%;
       line-height: 1.8;
       margin: 3%;
     }
@@ -114,7 +117,7 @@
     }
     a{
       color: #fff;
-      font-size: 3rem;
+      font-size: 180%;
     }
   }
   ul.footer li {
@@ -142,9 +145,10 @@
     text-align: center;
     width:(100% / 4);
     color: #B43B3E;
-    font-size: 120%;
+    font-size: 84%;
     padding-left: 4%;
     font-weight: 600;
+
   }
   .c-footer_content{
     color: #B43B3E;
@@ -165,13 +169,6 @@
       margin-left: 10%;
     }
   }
-  .c-contact_title {
-    font-size: 2rem;
-    margin-top: 4%;
-  }
-  .c-form_info{
-    font-size: 160%;
-  }
   /* pc */
   @media screen and (min-width: 768px) {
       /* footer */
@@ -180,7 +177,7 @@
     }
     .c-contact_info{
       font-weight: normal;
-      font-size: 150%;
+      font-size: 110%;
       margin: 1% 0;
       padding-left: 2%;
       i{
@@ -188,7 +185,7 @@
       }
     }
     .c-contact_title{
-      font-size: 2rem;
+      font-size: 140%;
       margin-top: 4%;
     }
     .c-form_btn{
@@ -198,7 +195,6 @@
       margin-top: 3%;
       span{
         font-weight: 600;
-        font-size: 120%;
       }
       & div{
         padding-bottom: 0;
