@@ -73,8 +73,7 @@
 <style lang="scss" scoped>
   .p-hero {
     position: relative;
-    height: 1130px;
-    background-image: url('http://placeimg.com/640/340/people/sepia');
+    background-image: url('/static/images/service_top.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 100;
