@@ -9,53 +9,54 @@
         「作る」だけじゃなく、「伝える」「語り合う」
       </div>
       <div class="p-hero_media">
-        <div class="c-bg"></div>
-        <div class="c-media">
-          <div class="c-media_number">01</div>
-          <div class="c-media_container">
-            <p class="c-media_title">Web制作</p>
-            <img src="/images/service_list01.jpg" class="c-media_thumb">
-            <p class="c-media_sum">
-              最新技術で<br>
-              しっかりサポート
-            </p>
-            <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+        <div class="c-bg">
+          <div class="c-media">
+            <div class="c-media_number">01</div>
+            <div class="c-media_container">
+              <p class="c-media_title">Web制作</p>
+              <img src="/images/service_list01.jpg" class="c-media_thumb">
+              <p class="c-media_sum">
+                最新技術で<br>
+                しっかりサポート
+              </p>
+              <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+            </div>
           </div>
-        </div>
-        <div class="c-media">
-          <div class="c-media_number">02</div>
-          <div class="c-media_container">
-            <p class="c-media_title">システム開発</p>
-            <img src="/images/service_list02.jpg" class="c-media_thumb">
-            <p class="c-media_sum">
-              最新技術で<br>
-              しっかりサポート
-            </p>
-            <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+          <div class="c-media">
+            <div class="c-media_number">02</div>
+            <div class="c-media_container">
+              <p class="c-media_title">システム開発</p>
+              <img src="/images/service_list02.jpg" class="c-media_thumb">
+              <p class="c-media_sum">
+                最新技術で<br>
+                しっかりサポート
+              </p>
+              <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+            </div>
           </div>
-        </div>
-        <div class="c-media">
-          <div class="c-media_number">03</div>
-          <div class="c-media_container">
-            <p class="c-media_title">技術顧問</p>
-            <img src="/images/service_list03.jpg" class="c-media_thumb">
-            <p class="c-media_sum">
-              最新技術で<br>
-              しっかりサポート
-            </p>
-            <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+          <div class="c-media">
+            <div class="c-media_number">03</div>
+            <div class="c-media_container">
+              <p class="c-media_title">技術顧問</p>
+              <img src="/images/service_list03.jpg" class="c-media_thumb">
+              <p class="c-media_sum">
+                最新技術で<br>
+                しっかりサポート
+              </p>
+              <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+            </div>
           </div>
-        </div>
-        <div class="c-media">
-          <div class="c-media_number">04</div>
-          <div class="c-media_container">
-            <p class="c-media_title">イベント</p>
-            <img src="/images/service_list04.jpg" class="c-media_thumb">
-            <p class="c-media_sum">
-              最新技術で<br>
-              しっかりサポート
-            </p>
-            <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+          <div class="c-media">
+            <div class="c-media_number">04</div>
+            <div class="c-media_container">
+              <p class="c-media_title">イベント</p>
+              <img src="/images/service_list04.jpg" class="c-media_thumb">
+              <p class="c-media_sum">
+                最新技術で<br>
+                しっかりサポート
+              </p>
+              <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+            </div>
           </div>
         </div>
       </div>
@@ -72,15 +73,16 @@
 
 <style lang="scss" scoped>
   .p-hero {
-    position: relative;
-    background-image: url('/static/images/service_top.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 100;
+    background-image: none;
   }
   .c-bg{
-    background-position: top;
-    position: absolute;
+    position: relative;
+    /*background-color: #B43B3E;*/
+    height: 81%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
   }
 
   .p-hero_baseImage {
@@ -90,7 +92,7 @@
     height: 107%;
     left: 0;
     top: 0;
-    background: #b43b3e;
+    background-color: red;
   }
   .p-hero_heading {
     padding-top: 7%;
@@ -113,24 +115,24 @@
   @media screen and (min-width: 768px) {
     .p-hero_media {
       padding-top: 7%;
-    }
-    .p-hero_media {
       margin-top: 0;
+      display: flex;
     }
     .c-bg {
-      position: absolute;
-      background-color: #B43B3E;
-      height: 81%;
-      width: 100%;
-      z-index: -100;
-      margin-top: 13%;
+
+    }
+    .p-hero {
+      position: relative;
+      background-image: url('/static/images/service_top.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
     }
     .p-hero_content {
-      position: absolute;
+      position: relative;
       height: 44%;
       left: 0;
       top: 0;
-      background: rgba(195,80,79,0.65);
+      z-index: -1000;
     }
   }
 </style>

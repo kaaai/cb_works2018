@@ -12,6 +12,7 @@
 <script>
 export default {
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -43,7 +44,6 @@ export default {
   @media screen and (min-width: 768px) {
     .p-catch_logo{
       margin: 3% 0;
-      width: 5%;
-    }
+      width: 5%;  }
   }
 </style>
