@@ -154,6 +154,7 @@
     color: #B43B3E;
     small{
       font-size: 50%;
+      padding-left: 2%;
     }
   }
   .c-chatbox_copy{

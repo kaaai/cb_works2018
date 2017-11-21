@@ -75,7 +75,6 @@
   }
   .c-bg{
     position: relative;
-    /*background-color: #B43B3E;*/
     height: 81%;
     width: 100%;
     display: inline-flex;
@@ -115,7 +114,6 @@
       display: flex;
     }
     .p-hero {
-      //position: relative;
       background-image: url('/static/images/service_top.jpg');
       background-repeat: no-repeat;
       background-size: contain;
