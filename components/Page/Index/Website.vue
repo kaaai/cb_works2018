@@ -55,12 +55,10 @@
 
 <style lang="scss" scoped>
   .p-website{
-    margin-top: 10%;
+    margin-top: 0;
   }
   @media screen and (min-width: 768px) {
-    .p-website{
-      margin-top: 0;
-    }
+
   }
 </style>
 

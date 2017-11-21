@@ -46,4 +46,7 @@ export default {
       margin: 3% 0;
       width: 5%;  }
   }
+  .c-block {
+    padding-top: 8%;
+  }
 </style>

@@ -60,7 +60,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 </template>
@@ -68,12 +67,11 @@
 <script>
   export default {
   }
-
 </script>
-
 <style lang="scss" scoped>
   .p-hero {
     background-image: none;
+    background-color: #B43B3E;
   }
   .c-bg{
     position: relative;
@@ -84,7 +82,6 @@
     flex-wrap:wrap;
     justify-content:space-around;
   }
-
   .p-hero_baseImage {
     width: 100%;
   }
@@ -92,7 +89,6 @@
     height: 107%;
     left: 0;
     top: 0;
-    background-color: red;
   }
   .p-hero_heading {
     padding-top: 7%;
@@ -118,11 +114,8 @@
       margin-top: 0;
       display: flex;
     }
-    .c-bg {
-
-    }
     .p-hero {
-      position: relative;
+      //position: relative;
       background-image: url('/static/images/service_top.jpg');
       background-repeat: no-repeat;
       background-size: contain;
@@ -132,7 +125,6 @@
       height: 44%;
       left: 0;
       top: 0;
-      z-index: -1000;
     }
   }
 </style>
