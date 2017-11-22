@@ -6,7 +6,6 @@
 .c-balloon_content{
   margin: 0 auto;
 }
-
 @media screen and (min-width: 768px) {
   .c-balloon_content{
     display: flex;
@@ -14,4 +13,5 @@
     justify-content:space-between;
   }
 }
+
 
