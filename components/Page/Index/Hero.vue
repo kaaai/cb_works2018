@@ -16,8 +16,7 @@
               <p class="c-media_title">Web制作</p>
               <img src="/images/service_list01.jpg" class="c-media_thumb">
               <p class="c-media_sum">
-                最新技術で<br>
-                しっかりサポート
+                最新技術で<br class="br-pc">しっかりサポート
               </p>
               <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
             </div>
@@ -28,8 +27,7 @@
               <p class="c-media_title">システム開発</p>
               <img src="/images/service_list02.jpg" class="c-media_thumb">
               <p class="c-media_sum">
-                最新技術で<br>
-                しっかりサポート
+                最新技術で<br class="br-pc">しっかりサポート
               </p>
               <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
             </div>
@@ -40,8 +38,7 @@
               <p class="c-media_title">技術顧問</p>
               <img src="/images/service_list03.jpg" class="c-media_thumb">
               <p class="c-media_sum">
-                最新技術で<br>
-                しっかりサポート
+                最新技術で<br class="br-pc">しっかりサポート
               </p>
               <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
             </div>
@@ -52,8 +49,7 @@
               <p class="c-media_title">イベント</p>
               <img src="/images/service_list04.jpg" class="c-media_thumb">
               <p class="c-media_sum">
-                最新技術で<br>
-                しっかりサポート
+                最新技術で<br class="br-pc">しっかりサポート
               </p>
               <p class="c-media_desc">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
             </div>
@@ -76,10 +72,10 @@
   .c-bg{
     position: relative;
     height: 81%;
-    width: 100%;
+    width: 85%;
     display: inline-flex;
     flex-wrap:wrap;
-    justify-content:space-around;
+    justify-content:space-between;
   }
   .p-hero_baseImage {
     width: 100%;
@@ -90,27 +86,39 @@
     top: 0;
   }
   .p-hero_heading {
-    padding-top: 7%;
+    padding-top: 5%;
     text-align: center;
     color: #FFF;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 6px;
+    line-height: 2;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
   }
   .p-hero_desc {
     margin-top: 10px;
     text-align: center;
     color: #FFF;
     letter-spacing: 2px;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+      .p-hero_desc {
+        font-size: 30px;
+      }
+    }
+
   }
   .p-hero_media {
-    margin-top: 7%;
+    margin-top: 4%;
     padding-top: 7%;
     text-align: center;
   }
   @media screen and (min-width: 768px) {
     .p-hero_media {
-      padding-top: 7%;
       margin-top: 0;
+      margin-bottom:3%;
+      padding-top: 4%;
       display: flex;
     }
     .p-hero {
@@ -124,5 +132,10 @@
       left: 0;
       top: 0;
     }
+  }
+  .br-pc{
+    @media screen and (min-width: 768px) {
+      display: none;
+      }
   }
 </style>

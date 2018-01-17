@@ -8,7 +8,7 @@
     </div>
     <div class="c-content_contact c-content_contact_bg c-footer_inner">
       <span class="square"></span>
-      <div class="c-contact_title">Webにまつわるお悩み、ご相談はお気軽にchatboxまで。</div>
+      <div class="c-contact_title">Webにまつわるお悩み、<br>ご相談はお気軽にchatboxまで。</div>
       <div class="c-form_btn">
         <div>
 
@@ -72,7 +72,7 @@
     div:nth-child(1){
       font-size: 110%;
       line-height: 1.8;
-      margin: 3%;
+      margin: 10% 0 5%;
     }
   }
   .c-content_contact_bg{
@@ -81,8 +81,8 @@
       display: inline-block;
       vertical-align: top;
       height: 0;
-      border: 20px solid transparent;
-      border-top: 14px solid #fff;
+      border: 27px solid transparent;
+      border-top: 27px solid #fff;
       font-weight: 600;
     }
     & c-form_btn{
@@ -94,12 +94,24 @@
     margin: 0 auto;
     position: relative;
     span{
-      padding: 7%;
+      padding: 5%;
       display: inline-block;
+      font-weight: 600;
+      font-size: 77%;
+      vertical-align: super;
+      @media screen and (min-width: 768px) {
+        font-size: 120%;
+        padding: 7% 12% 7% 7%;
+      }
     }
     & i{
       margin-top: 6%;
       padding-left: 9%;
+      font-size: 120%;
+      @media screen and (min-width: 768px) {
+        font-size: 250%;
+        vertical-align: super;
+      }
     }
     div{
       border-radius: 6px;
@@ -186,14 +198,14 @@
       }
     }
     .c-contact_title{
-      font-size: 140%;
+      font-size: 180%;
       margin-top: 4%;
+      letter-spacing: 3px;
     }
     .c-form_btn{
-      margin-left: 0;
-      width: 45%;
+      margin-left: 13%;
+      width: 47%;
       display: inline-block;
-      margin-top: 3%;
       span{
         font-weight: 600;
       }
@@ -210,7 +222,9 @@
       vertical-align: middle;
       width: 30%;
       display: inline-block;
-      margin: 0;
+      margin: 0 0 0 2%;
+      font-size: 110%;
+      letter-spacing: 4px;
     }
     ul{
       text-align: left;

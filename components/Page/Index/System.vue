@@ -72,6 +72,10 @@
 .c-balloon_text {
   @extend .c-balloon_text;
   background-color: #fff;
+  font-size: 11px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 .c-balloon_nozzle {
   @extend .c-balloon_nozzle;

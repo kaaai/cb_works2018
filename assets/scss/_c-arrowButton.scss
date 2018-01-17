@@ -6,16 +6,23 @@
   span:nth-child(1) {
     background-color: #B43B3E;
     color: #fff;
-    font-size: 18px;
-    padding: 18px 40px 18px 50px;
+    font-size: 14px;
+    padding: 10px 32px;
     display: inline-block;
+    @media screen and (min-width: 768px) {
+      padding: 15px 50px;
+    }
   }
   span:nth-child(2) {
     width: 0;
     height: 0;
-    border: 32px solid transparent;
-    border-left: 16px solid #B43B3E;
+    border: 20px solid transparent;
+    border-left: 20px solid #B43B3E;
     display: inline-block;
+    @media screen and (min-width: 768px) {
+      border: 25px solid transparent;
+      border-left: 25px solid #B43B3E;
+    }
   }
 
 }

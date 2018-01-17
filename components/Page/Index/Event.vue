@@ -67,6 +67,7 @@
   .c-block_label {
     @extend .c-block_label;
     background-color: #fff;
+    font-weight: 600;
   }
   .c-balloon_text {
     @extend .c-balloon_text;
