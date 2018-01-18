@@ -3,7 +3,7 @@
     <div class="c-block">
       <div class="c-block_number">01</div>
       <div class="c-block_container">
-        <p class="c-block_title">
+        <p class="c-block_title1">
           Web制作
           <span>最新技術でしっかりサポート</span>
         </p>

@@ -20,7 +20,10 @@
   color: #FFF;
   text-align: center;
 }
-.c-block_title {
+.c-block_title1,
+.c-block_title2,
+.c-block_title3,
+.c-block_title4{
   padding: 3% 0 3% 3% ;
   font-weight: bold;
   font-size: 150%;
@@ -86,7 +89,6 @@
     width: 87%;
     display: inline-block;
   }
-
 }
 .c-block_button {
   text-align: right;
@@ -96,7 +98,7 @@
     margin: 0 auto;
     padding-top: 3%;
   }
-  .c-block_title {
+  .c-block_title1,.c-block_title2,.c-block_title3,.c-block_title4 {
     text-align: left;
     padding-left: 2%;
     letter-spacing: 2px;

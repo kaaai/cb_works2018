@@ -222,7 +222,7 @@
       vertical-align: middle;
       width: 30%;
       display: inline-block;
-      margin: 0 0 0 2%;
+      margin: 0 0 2% 2%;
       font-size: 110%;
       letter-spacing: 4px;
     }
