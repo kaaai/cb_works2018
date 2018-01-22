@@ -3,26 +3,28 @@
     <div class="c-block">
       <div class="c-block_number">02</div>
       <div class="c-block_container">
-        <p class="c-block_title">
+        <p class="c-block_title2">
           システム開発
           <span>最新技術でしっかりサポート</span>
         </p>
         <div class="c-block_container_inner">
-          <div class="c-balloon">
-            <div class="c-balloon_text">スマートフォン対応がしたい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">大規模サイトでスタイルガイドでCSSを管理したい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">プログレッシブWebにしたい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
-          </div>
-          <div class="c-balloon">
-            <div class="c-balloon_text">サイトの高速化に対応したい</div>
-            <div class="c-balloon_nozzle"><span></span></div>
+          <div class="c-balloon_content">
+            <div class="c-balloon">
+              <div class="c-balloon_text">スマートフォン対応がしたい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+            <div class="c-balloon">
+              <div class="c-balloon_text">大規模サイトでスタイルガイドでCSSを管理したい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+            <div class="c-balloon">
+              <div class="c-balloon_text">プログレッシブWebにしたい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
+            <div class="c-balloon">
+              <div class="c-balloon_text">サイトの高速化に対応したい</div>
+              <div class="c-balloon_nozzle"><span></span></div>
+            </div>
           </div>
           <p class="c-block_sum">
             複雑化するシステム構築の課題を、
@@ -70,6 +72,10 @@
 .c-balloon_text {
   @extend .c-balloon_text;
   background-color: #fff;
+  font-size: 11px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 .c-balloon_nozzle {
   @extend .c-balloon_nozzle;

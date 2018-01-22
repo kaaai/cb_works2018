@@ -1,14 +1,18 @@
 .c-block {
   text-align: center;
-  padding-top: 15%;
+  padding-top: 7%;
 }
 .c-block_container {
   background-color: #fff;
+  width: 85%;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 1110px;
+  }
 }
 .c-block_number {
   padding-top: 8px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background-color: #B43B3E;
   width: 76px;
   height:38px;
@@ -16,32 +20,47 @@
   color: #FFF;
   text-align: center;
 }
-.c-block_title {
-  padding-top: 10px;
-  padding-bottom: 16px;
+.c-block_title1,
+.c-block_title2,
+.c-block_title3,
+.c-block_title4{
+  padding: 3% 0 3% 3% ;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 150%;
   color: #fff;
-  background-image: url("https://placehold.jp/150x150.png");
   background-size: cover;
+  background-image: url("/static/images/service_list_ttl01.jpg");
   span {
     display: block;
-    font-size: 20px;
+    font-size: 80%;
     font-weight: normal;
   }
 }
 .c-block_container_inner {
-  padding: 0 10px 30px 10px;
+  padding: 0 0 30px;
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    margin-top: 3%;
+  }
 }
 .c-block_sum {
-  font-size: 24px;
+  font-size: 20px;
   color: #B43B3E;
   text-align: center;
+  font-weight: 600;
+  @media screen and (min-width: 768px) {
+    font-size: 21px;
+  }
 }
 .c-block_desc {
-  font-size: 20px;
+  font-size: 14px;
   text-align: left;
   line-height: 36px;
+  letter-spacing: none;
+  @media screen and (min-width: 768px) {
+    letter-spacing: 1px;
+  }
   span {
     font-weight: bold;
   }
@@ -49,7 +68,13 @@
 .c-block_label {
   background-color: #F5F1F1;
   padding: 6px 0;
-  font-size: 18px;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 3%;
+  @media screen and (min-width: 768px) {
+    width: 10%;
+  }
 }
 .c-block_case {
   text-align: justify;
@@ -57,15 +82,32 @@
   letter-spacing: 1px;
   padding-top: 10px;
   padding-bottom: 30px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  @media screen and (min-width: 768px) {
+    width: 87%;
+    display: inline-block;
+  }
 }
 .c-block_button {
   text-align: right;
 }
 @media screen and (min-width: 768px) {
   .c-block{
-    width: 90%;
     margin: 0 auto;
     padding-top: 3%;
+  }
+  .c-block_title1,.c-block_title2,.c-block_title3,.c-block_title4 {
+    text-align: left;
+    padding-left: 2%;
+    letter-spacing: 2px;
+    span{
+      display: inline-block;
+      font-size: 60%;
+      vertical-align: middle;
+      padding-left: 2%;
+    }
   }
   .c-block_case{
     margin-top: 3%;
@@ -76,6 +118,6 @@
     margin: 3% 0;
   }
   .c-block_desc{
-    margin-bottom: 5%;
+
   }
 }

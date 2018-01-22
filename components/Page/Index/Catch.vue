@@ -1,11 +1,11 @@
 <template>
   <section class="p-catch">
-    <img class="p-catch_logo" src="https://placehold.jp/150x150.png" alt="">
+    <img class="p-catch_logo" src="/images/logo.jpg" alt="chatboxロゴ">
     <div class="p-catch_title">chatboxにできること</div>
     <div class="p-catch_angle">
-      <!--TODO 一旦うまくいかないので無視-->
-      <!--<div class="p-catch_angle_logo"></div>-->
-    </div>
+    <!--TODO 一旦うまくいかないので無視-->
+    <!--<div class="p-catch_angle_logo"></div>-->
+  </div>
   </section>
 </template>
 
@@ -21,16 +21,25 @@ export default {
     text-align: center;
   }
   .p-catch_logo {
-    margin-top: 10px;
-    width: 100px;
-    height: 80px;
+    margin: 9% 0 2%;
+    width: 16%;
+    @media screen and (min-width: 768px) {
+      margin: 7% 0;
+      width: 17%;
+    }
   }
   .p-catch_title {
     margin-top: 10px;
     margin-bottom: 16px;
     color: #B43B3E;
-    font-size: 26px;
+    font-size: 23px;
+    font-weight: 600;
     letter-spacing: 6px;
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+        margin-bottom: 2%;
+
+    }
   }
   .p-catch_angle {
     position: absolute;
@@ -41,17 +50,16 @@ export default {
     border: 40px solid transparent;
     border-top: 40px solid #B43B3E;
     border-left: 40px solid #B43B3E;
+    background-image: url('/static/images/header_logo.png');
+    background-position: top;
   }
-  /*TODO うまくいかないので一旦無視*/
-  /*.p-catch_angle_logo {*/
-    /*position: absolute;*/
-    /*top: 2px;*/
-    /*left: 2px;*/
-    /*z-index: 100;*/
-    /*width: 20px;*/
-    /*height: 20px;*/
-    /*border-radius: 2px;*/
-    /*background-color: #FFF;*/
-  /*}*/
-
+  @media screen and (min-width: 768px) {
+    .p-catch_logo{
+      margin: 3% auto 2%;
+      width: 6%;
+    }
+  }
+  .c-block {
+    padding-top: 8%;
+  }
 </style>
