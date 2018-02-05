@@ -122,7 +122,6 @@
     }
   }
   .c-contact_tel{
-    font-family: YuGothic;
     margin: 5%;
     div:nth-child(1){
       margin: 0;
