@@ -32,7 +32,7 @@ export default {
     margin-top: 10px;
     margin-bottom: 16px;
     color: #B43B3E;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 600;
     letter-spacing: 6px;
     @media screen and (min-width: 768px) {
