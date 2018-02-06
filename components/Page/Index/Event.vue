@@ -58,11 +58,11 @@
 <style lang="scss" scoped>
   .c-block {
     @extend .c-block;
-    background-color: #F5F1F1;
+    background-color: #FAF7F7;
   }
   .c-block_container {
     @extend .c-block_container;
-    background-color: #F5F1F1;
+    background-color: #FAF7F7;
   }
   .c-block_label {
     @extend .c-block_label;

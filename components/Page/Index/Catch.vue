@@ -31,7 +31,7 @@ export default {
   .p-catch_title {
     margin-top: 10px;
     margin-bottom: 16px;
-    color: #B43B3E;
+    color: #C3504F;
     font-size: 23px;
     font-weight: 600;
     letter-spacing: 6px;
@@ -48,8 +48,8 @@ export default {
     width: 0;
     height: 0;
     border: 40px solid transparent;
-    border-top: 40px solid #B43B3E;
-    border-left: 40px solid #B43B3E;
+    border-top: 40px solid #C3504F;
+    border-left: 40px solid #C3504F;
     background-image: url('/static/images/header_logo.png');
     background-position: top;
   }
