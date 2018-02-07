@@ -27,7 +27,15 @@
         <span class="text-blod">最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。
         <span class="text-blod">Web制作に関するあらゆる相談に対応出来るよう、経験豊富なスタッフが親身に対応にあたります。</span>
       </div>
-
+    </div>
+    <div class="p-service__example">
+      <div class="p-service__exampleHeading">導入事例</div>
+      <ul class="p-service__exampleList">
+        <li class="p-service__exampleListItem">Webサイト制作</li>
+        <li class="p-service__exampleListItem">Webサイト制作</li>
+        <li class="p-service__exampleListItem">Webサイト制作</li>
+        <li class="p-service__exampleListItem">Webサイト制作</li>
+      </ul>
     </div>
   </section>
 </template>
@@ -44,6 +52,7 @@
     @include desktop {
       @include c-container;
       box-sizing: border-box;
+      margin-bottom: 60px;
     }
     &__heading {
       margin-bottom: 20px;
@@ -120,7 +129,7 @@
       text-align: center;
       font-weight: bold;
       border-radius: 4px;
-      background: #faf7f7;
+      background: #fbf3f3;
       position: relative;
       &::after {
         content: "";
@@ -129,7 +138,7 @@
         height: 0;
         border-style: solid;
         border-width: 14px 12px 0 12px;
-        border-color: #faf7f7 transparent transparent transparent;
+        border-color: #fbf3f3 transparent transparent transparent;
         position: absolute;
         bottom: -13px;
         left: 50%;
@@ -148,6 +157,27 @@
     }
     &__descriptionText {
       line-height: 2.3;
+    }
+    &__example {
+      display: flex;
+      margin-bottom: 40px;
+      align-items:center;
+    }
+    &__exampleHeading {
+      padding: 1rem 4rem;
+      background: #fbf3f3 ;
+    }
+    &__exampleList {
+      box-sizing: border-box;
+      padding-left: 20px;
+    }
+    &__exampleListItem {
+      display: inline-block;
+      &::after {
+        display: inline-block;
+        content: "/";
+        padding: 1rem;
+      }
     }
   }
 </style>
