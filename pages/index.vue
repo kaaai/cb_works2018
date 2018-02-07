@@ -1,19 +1,15 @@
 <template>
   <main>
     <page-hero></page-hero>
-    <page-website></page-website>
-    <!--<page-system></page-system>-->
-    <!--<page-advisor></page-advisor>-->
-    <!--<page-event></page-event>-->
+    <page-service></page-service>
+    <page-contact></page-contact>
   </main>
 </template>
 
 <script>
   import PageHero from '~/components/Page/Index/Hero.vue'
-  import PageWebsite from '~/components/Page/Index/Website.vue'
-//  import PageSystem from '~/components/Page/Index/System.vue'
-//  import PageAdvisor from '~/components/Page/Index/Advisor.vue'
-//  import PageEvent from '~/components/Page/Index/Event.vue'
+  import PageService from '~/components/Page/Index/Service.vue'
+  import PageContact from '~/components/Page/Index/Contact.vue'
 
   export default {
     data () {
@@ -23,10 +19,8 @@
     },
     components: {
       PageHero,
-      PageWebsite,
-//      PageSystem,
-//      PageAdvisor,
-//      PageEvent
+      PageService,
+      PageContact
     }
   }
 </script>
