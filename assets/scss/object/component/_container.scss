@@ -1,0 +1,18 @@
+@import "../../layout/layout";
+
+@mixin c-container(){
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  @include desktop {
+    padding: 0;
+  }
+}
+
+@mixin c-containerInner(){
+  padding: 0 2.5rem;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
