@@ -67,7 +67,7 @@
 <style lang="scss" scoped>
   .p-hero {
     background-image: none;
-    background-color: #B43B3E;
+    background-color: #C3504F;
   }
   .c-bg{
     position: relative;

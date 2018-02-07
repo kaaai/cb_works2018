@@ -56,7 +56,7 @@
     padding: 0 3% 3%;
   }
   a{
-    color: #B43B3E;
+    color: #C3504F;
     &:hover{
       text-decoration: none;
       opacity: 0.7;
@@ -64,7 +64,7 @@
   }
   .c-contact_info{
     margin: 3% 0;
-    color: #B43B3E;
+    color: #C3504F;
   }
   .c-content_contact{
     color: #fff;
@@ -76,7 +76,7 @@
     }
   }
   .c-content_contact_bg{
-    background-color: #B43B3E;
+    background-color: #C3504F;
     span.square{
       display: inline-block;
       vertical-align: top;
@@ -116,7 +116,7 @@
     div{
       border-radius: 6px;
       background-color: #fff;
-      color: #B43B3E;
+      color: #C3504F;
       width: 90%;
       display: inline-block;
     }
@@ -135,7 +135,7 @@
     display: inline;
     text-align: center;
     a{
-      color: #B43B3E;
+      color: #C3504F;
     }
   }
   ul{
@@ -143,7 +143,7 @@
     margin-top: 3%;
     padding: 0 3%;
     div{
-      border-bottom: solid 1px #B43B3E;
+      border-bottom: solid 1px #C3504F;
       width: 100%;
       margin: 4% auto 0;
     }
@@ -155,14 +155,14 @@
     display: inline;
     text-align: center;
     width:(100% / 4);
-    color: #B43B3E;
+    color: #C3504F;
     font-size: 84%;
     padding-left: 4%;
     font-weight: 600;
 
   }
   .c-footer_content{
-    color: #B43B3E;
+    color: #C3504F;
     small{
       font-size: 50%;
       padding-left: 2%;

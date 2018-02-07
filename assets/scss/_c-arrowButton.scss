@@ -4,7 +4,7 @@
 .c-arrowButton_container {
   display: flex;
   span:nth-child(1) {
-    background-color: #B43B3E;
+    background-color: #C3504F;
     color: #fff;
     font-size: 14px;
     padding: 10px 32px;
@@ -17,11 +17,11 @@
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-left: 20px solid #B43B3E;
+    border-left: 20px solid #C3504F;
     display: inline-block;
     @media screen and (min-width: 768px) {
       border: 25px solid transparent;
-      border-left: 25px solid #B43B3E;
+      border-left: 25px solid #C3504F;
     }
   }
 
