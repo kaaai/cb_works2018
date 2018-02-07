@@ -1,11 +1,6 @@
 <template>
   <section class="p-catch">
-    <img class="p-catch_logo" src="/images/logo.svg" alt="chatboxロゴ">
     <div class="p-catch_title">chatboxにできること</div>
-    <div class="p-catch_angle">
-    <!--TODO 一旦うまくいかないので無視-->
-    <!--<div class="p-catch_angle_logo"></div>-->
-  </div>
   </section>
 </template>
 

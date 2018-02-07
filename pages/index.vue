@@ -1,6 +1,5 @@
 <template>
   <main>
-    <page-catch></page-catch>
     <page-hero></page-hero>
     <page-website></page-website>
     <!--<page-system></page-system>-->
@@ -10,7 +9,6 @@
 </template>
 
 <script>
-  import PageCatch from '~/components/Page/Index/Catch.vue'
   import PageHero from '~/components/Page/Index/Hero.vue'
   import PageWebsite from '~/components/Page/Index/Website.vue'
 //  import PageSystem from '~/components/Page/Index/System.vue'
@@ -24,7 +22,6 @@
       }
     },
     components: {
-      PageCatch,
       PageHero,
       PageWebsite,
 //      PageSystem,
