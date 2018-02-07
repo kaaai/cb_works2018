@@ -105,7 +105,7 @@
     &__headingTitleWrap {
       color: #fff;
       @include desktop {
-        line-height: 5;
+        line-height: 3.5;
       }
     }
     &__headingTitle {
@@ -116,13 +116,11 @@
       @include desktop {
         display: inline-block;
         font-size: 3rem;
-
       }
     }
     &__headingSubTitle {
       display: block;
       margin-left: 0;
-      font-size: 1.4rem;
       font-size: 1.4rem;
       @include desktop {
         display: inline-block;
@@ -196,6 +194,10 @@
     }
     &__descriptionText {
       line-height: 2.3;
+      font-size: 1.4rem;
+      @include desktop {
+        font-size: 1.6rem;
+      }
     }
     &__example {
       display: flex;

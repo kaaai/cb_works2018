@@ -34,9 +34,6 @@
   .p-footerArea{
     border-top: 2px solid #C3504F;
     background-color: #FAF7F7;
-    @include desktop() {
-      margin-top: 100px;
-    }
   }
 
   .p-footer{
