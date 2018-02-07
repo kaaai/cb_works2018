@@ -57,6 +57,10 @@
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
   .p-hero {
+    @include desktop {
+      margin-bottom: 80px;
+    }
+
 
     &__title {
       margin-bottom: 2.5rem;
@@ -74,7 +78,7 @@
 
     &__wrap {
       background-color: #C3504F;
-      min-height: 800px;
+      min-height: 760px;
       position: relative;
     }
     &__backgound  {
@@ -152,7 +156,7 @@
       border-top: 3px solid #C3504F;
       margin-bottom: 40px;
       width: 48%;
-      background: #F5F1F1;
+      background: #faf7f7;
       text-decoration: none;
       color: #393739;
       position: relative;
@@ -199,7 +203,7 @@
       padding: 1.4rem;
       font-size: 1.5rem;
       font-weight: bold;
-      background: #F5F1F1;
+      background: #faf7f7;
 
       @include desktop {
         padding: 2rem;
