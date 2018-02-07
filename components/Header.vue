@@ -60,7 +60,7 @@
       @include desktop(){
         display: inline-block;
         width: auto;
-        height: 7rem;
+        height: 6rem;
       }
     }
   }

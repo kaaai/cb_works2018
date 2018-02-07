@@ -22,7 +22,7 @@
 @font-face {
   font-family: "Yu Gothic";
   src: local("Yu Gothic Medium");
-  font-weight: 400;
+  font-weight: bold;
 }
 @font-face {
   font-family: "Yu Gothic";
@@ -35,6 +35,7 @@ html,body{
   font-family: "Yu Gothic Medium","YuGothic Medium", YuGothic, "Yu Gothic",sans-serif;
   background-color: #FAF7F7;
   color: #393739;
+  line-height: 1.4;
   @include desktop(){
     font-size: 1.5rem;
   }
