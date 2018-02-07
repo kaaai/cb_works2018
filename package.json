@@ -8,6 +8,7 @@
     "@nuxtjs/pwa": "latest",
     "node-sass": "^4.6.1",
     "nuxt": "latest",
+    "reset-css": "^2.2.1",
     "sass-loader": "^6.0.6"
   },
   "scripts": {
