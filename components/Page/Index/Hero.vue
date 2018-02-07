@@ -14,7 +14,7 @@
             <div class="c-media_number">01</div>
             <div class="c-media_container">
               <p class="c-media_title">Web制作</p>
-              <img src="/images/service_list01.jpg" class="c-media_thumb">
+              <img src="/images/serviceThumb_create.jpg" class="c-media_thumb">
               <p class="c-media_sum">
                 最新技術で<br class="br-pc">しっかりサポート
               </p>
@@ -25,7 +25,7 @@
             <div class="c-media_number">02</div>
             <div class="c-media_container">
               <p class="c-media_title">システム開発</p>
-              <img src="/images/service_list02.jpg" class="c-media_thumb">
+              <img src="/images/serviceThumb_system.jpg" class="c-media_thumb">
               <p class="c-media_sum">
                 最新技術で<br class="br-pc">しっかりサポート
               </p>
@@ -36,7 +36,7 @@
             <div class="c-media_number">03</div>
             <div class="c-media_container">
               <p class="c-media_title">技術顧問</p>
-              <img src="/images/service_list03.jpg" class="c-media_thumb">
+              <img src="/images/serviceThumb_support.jpg" class="c-media_thumb">
               <p class="c-media_sum">
                 最新技術で<br class="br-pc">しっかりサポート
               </p>
@@ -47,7 +47,7 @@
             <div class="c-media_number">04</div>
             <div class="c-media_container">
               <p class="c-media_title">イベント</p>
-              <img src="/images/service_list04.jpg" class="c-media_thumb">
+              <img src="/images/serviceThumb_event.jpg" class="c-media_thumb">
               <p class="c-media_sum">
                 最新技術で<br class="br-pc">しっかりサポート
               </p>
@@ -122,7 +122,7 @@
       display: flex;
     }
     .p-hero {
-      background-image: url('/static/images/service_top.jpg');
+      background-image: url('/static/images/hero_background.jpg');
       background-repeat: no-repeat;
       background-size: contain;
     }

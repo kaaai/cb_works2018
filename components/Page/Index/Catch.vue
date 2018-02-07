@@ -1,6 +1,6 @@
 <template>
   <section class="p-catch">
-    <img class="p-catch_logo" src="/images/logo.jpg" alt="chatboxロゴ">
+    <img class="p-catch_logo" src="/images/logo.svg" alt="chatboxロゴ">
     <div class="p-catch_title">chatboxにできること</div>
     <div class="p-catch_angle">
     <!--TODO 一旦うまくいかないので無視-->
@@ -50,7 +50,7 @@ export default {
     border: 40px solid transparent;
     border-top: 40px solid #C3504F;
     border-left: 40px solid #C3504F;
-    background-image: url('/static/images/header_logo.png');
+    background-image: url('/static/images/icon_chatbox-white.svg');
     background-position: top;
   }
   @media screen and (min-width: 768px) {
