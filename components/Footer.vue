@@ -51,6 +51,7 @@
 <style lang="scss" scoped>
   .c-footer {
     text-align: center;
+    overflow: hidden;
   }
   .c-footer_inner{
     padding: 0 3% 3%;
@@ -63,8 +64,14 @@
     }
   }
   .c-contact_info{
-    margin: 3% 0;
-    color: #C3504F;
+    padding-top: 14px;
+    color: #B43B3E;
+    position: fixed;
+    height: 50px;
+    z-index: 1000;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
   }
   .c-content_contact{
     color: #fff;
