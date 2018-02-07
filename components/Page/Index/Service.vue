@@ -139,7 +139,7 @@
       flex-wrap: wrap;
       @include desktop {
         flex-wrap: nowrap;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
     }
     &__problemListsItem  {
@@ -190,7 +190,10 @@
       font-size: 2rem;
       font-weight: bold;
       color: #C3504F;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
+      @include desktop {
+        font-size: 2.5rem;
+      }
     }
     &__descriptionText {
       line-height: 2.3;
