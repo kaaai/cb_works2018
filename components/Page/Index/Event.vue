@@ -2,7 +2,7 @@
   <section class="p-event">
     <div class="c-block">
       <div class="c-block_number">04</div>
-      <div class="c-block_container">
+      <div>
         <p class="c-block_title4">
           イベント
           <span>最新技術でしっかりサポート</span>
