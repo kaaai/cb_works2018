@@ -21,24 +21,6 @@
         <a href="tel:050-2555-1212">050-2555-1212</a>
       </div>
     </div>
-    <ul>
-      <li><a href="#">chatboxについて</a></li>
-      <li><a href="#">サービス</a></li>
-      <li><a href="#">メンバー</a></li>
-      <li><a href="#">お問い合わせ</a></li>
-      <div></div>
-    </ul>
-    <div class="c-footer_content c-footer_inner">
-      <div class="c-chatbox_copy">
-        <i class="fa fa-window-close-o fa-lg" aria-hidden="true"></i>
-        <small>Copyright © chatbox.inc All Rights Reserved.</small>
-      </div>
-      <div class="c-sns_content">
-        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-      </div>
-    </div>
-
   </section>
 </template>
 
