@@ -101,7 +101,7 @@
     text-align: center;
     color: #FFF;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
     @media screen and (min-width: 768px) {
       .p-hero_desc {
         font-size: 30px;
