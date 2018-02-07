@@ -57,10 +57,10 @@
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
   .p-hero {
+    margin-bottom: 50px;
     @include desktop {
       margin-bottom: 80px;
     }
-
 
     &__title {
       margin-bottom: 2.5rem;
@@ -201,7 +201,7 @@
     &__listItemHeading {
       text-align: center;
       padding: 1.4rem;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       font-weight: bold;
       background: #faf7f7;
 
@@ -228,10 +228,14 @@
       }
     }
     &__listItemDescriptionTitle {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       text-align: center;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-weight: bold;
+      @include desktop {
+        margin-bottom: 1.5rem;
+        font-size: 1.6rem;
+      }
     }
     &__listItemDescriptionText {
       line-height: 1.8;
