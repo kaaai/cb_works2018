@@ -14,7 +14,7 @@
         width: 0;
         height: 0;
         border: 40px solid transparent;
-        border-top: 40px solid #B43B3E;
-        border-left: 40px solid #B43B3E;
+        border-top: 40px solid #C3504F;
+        border-left: 40px solid #C3504F;
     }
 </style>

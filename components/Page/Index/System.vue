@@ -2,7 +2,7 @@
   <section class="p-system">
     <div class="c-block">
       <div class="c-block_number">02</div>
-      <div class="c-block_container">
+      <div>
         <p class="c-block_title2">
           システム開発
           <span>最新技術でしっかりサポート</span>
@@ -59,11 +59,11 @@
 <style lang="scss" scoped>
 .c-block {
   @extend .c-block;
-  background-color: #F5F1F1;
+  background-color: #FAF7F7;
 }
 .c-block_container {
   @extend .c-block_container;
-  background-color: #F5F1F1;
+  background-color: #FAF7F7;
 }
 .c-block_label {
   @extend .c-block_label;

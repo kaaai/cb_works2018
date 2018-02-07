@@ -2,7 +2,7 @@
   <section class="p-website">
     <div class="c-block">
       <div class="c-block_number">01</div>
-      <div class="c-block_container">
+      <div>
         <p class="c-block_title1">
           Web制作
           <span>最新技術でしっかりサポート</span>

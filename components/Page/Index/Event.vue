@@ -2,7 +2,7 @@
   <section class="p-event">
     <div class="c-block">
       <div class="c-block_number">04</div>
-      <div class="c-block_container">
+      <div>
         <p class="c-block_title4">
           イベント
           <span>最新技術でしっかりサポート</span>
@@ -58,11 +58,11 @@
 <style lang="scss" scoped>
   .c-block {
     @extend .c-block;
-    background-color: #F5F1F1;
+    background-color: #FAF7F7;
   }
   .c-block_container {
     @extend .c-block_container;
-    background-color: #F5F1F1;
+    background-color: #FAF7F7;
   }
   .c-block_label {
     @extend .c-block_label;

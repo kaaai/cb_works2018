@@ -2,7 +2,7 @@
   <section class="p-advisor">
     <div class="c-block">
       <div class="c-block_number">03</div>
-      <div class="c-block_container">
+      <div>
         <p class="c-block_title3">
           技術顧問
           <span>最新技術でしっかりサポート</span>

@@ -13,7 +13,7 @@
 .c-block_number {
   padding-top: 8px;
   margin: 0 auto;
-  background-color: #B43B3E;
+  background-color: #C3504F;
   width: 76px;
   height:38px;
   border-radius:38px 38px 0 0;
@@ -38,7 +38,7 @@
 }
 .c-block_container_inner {
   padding: 0 0 30px;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   @media screen and (min-width: 768px) {
     margin-top: 3%;
@@ -46,7 +46,7 @@
 }
 .c-block_sum {
   font-size: 20px;
-  color: #B43B3E;
+  color: #C3504F;
   text-align: center;
   font-weight: 600;
   @media screen and (min-width: 768px) {
@@ -66,7 +66,7 @@
   }
 }
 .c-block_label {
-  background-color: #F5F1F1;
+  background-color: #FAF7F7;
   padding: 6px 0;
   font-size: 16px;
   width: 100%;
