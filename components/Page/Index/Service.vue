@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div class="p-service">
+  <div>
+    <section class="p-service">
       <div class="p-service__inner">
         <div class="p-service__heading">
           <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_create.jpg');">
@@ -40,11 +40,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="p-service is-dark">
+    </section><section class="p-service is-dark">
       <div class="p-service__inner">
         <div class="p-service__heading">
-          <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_system.jpg');">
+          <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_create.jpg');">
             <div class="p-service__headingFilter">
               <div class="p-service__headinginner">
                 <div class="p-service__headingTitleWrap">
@@ -81,8 +80,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -120,7 +119,7 @@
       }
     }
     &__heading {
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       width: 100%;
       position: relative;
       z-index: 20;

@@ -138,7 +138,6 @@
       @include desktop {
         font-size: 2rem;
       }
-
     }
     &__lists {
       display: flex;
@@ -161,7 +160,7 @@
       transition: all .3s;
 
       &:hover {
-        transform: translateY(-20px);
+        transform: translateY(-15px);
         transition: all .3s;
       }
 
