@@ -58,10 +58,6 @@
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
   .p-hero {
-    margin-bottom: 50px;
-    @include desktop {
-      margin-bottom: 80px;
-    }
 
     &__title {
       margin-bottom: 2.5rem;

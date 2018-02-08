@@ -1,40 +1,85 @@
 <template>
-  <section class="p-service">
-    <div class="p-service__heading">
-      <div class="p-service__headingBackgound">
-        <div class="p-service__headingFilter">
-          <div class="p-service__headinginner">
-            <div class="p-service__headingTitleWrap">
-              <div class="p-service__headingTitle">Web制作</div>
-              <div class="p-service__headingSubTitle">最新技術でしっかりサポート</div>
+  <section>
+    <div class="p-service">
+      <div class="p-service__inner">
+        <div class="p-service__heading">
+          <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_create.jpg');">
+            <div class="p-service__headingFilter">
+              <div class="p-service__headinginner">
+                <div class="p-service__headingTitleWrap">
+                  <div class="p-service__headingTitle">Web制作</div>
+                  <div class="p-service__headingSubTitle">最新技術でしっかりサポート</div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="p-service__contentsInner">
+          <ul class="p-service__problemLists">
+            <li class="p-service__problemListsItem">スマートフォン対応がしたい</li>
+            <li class="p-service__problemListsItem">SPAにしたい</li>
+            <li class="p-service__problemListsItem">複雑なサイトを技術で解決したい</li>
+            <li class="p-service__problemListsItem">SPAにしたい</li>
+          </ul>
+          <div class="p-service__description">
+            <h3 class="p-service__descriptionTitle">複雑化するシステム構築の課題を、 最新の制作技術でしっかりサポート</h3>
+            <div class="p-service__descriptionText">
+              <span class="text-blod">複雑化するシステム構築の課題</span>を、
+              <span class="text-blod">最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。
+              <span class="text-blod">Web制作に関するあらゆる相談に対応出来るよう、経験豊富なスタッフが親身に対応にあたります。</span>
+            </div>
+          </div>
+          <div class="p-service__example">
+            <div class="p-service__exampleHeading">導入事例</div>
+            <ul class="p-service__exampleList">
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="p-service__contentsInner">
-      <ul class="p-service__problemLists">
-        <li class="p-service__problemListsItem">スマートフォン対応がしたい</li>
-        <li class="p-service__problemListsItem">SPAにしたい</li>
-        <li class="p-service__problemListsItem">複雑なサイトを技術で解決したい</li>
-        <li class="p-service__problemListsItem">SPAにしたい</li>
-      </ul>
-      <div class="p-service__description">
-        <h3 class="p-service__descriptionTitle">複雑化するシステム構築の課題を、 最新の制作技術でしっかりサポート</h3>
-        <div class="p-service__descriptionText">
-          <span class="text-blod">複雑化するシステム構築の課題</span>を、
-          <span class="text-blod">最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。
-          <span class="text-blod">Web制作に関するあらゆる相談に対応出来るよう、経験豊富なスタッフが親身に対応にあたります。</span>
+    <div class="p-service is-dark">
+      <div class="p-service__inner">
+        <div class="p-service__heading">
+          <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_system.jpg');">
+            <div class="p-service__headingFilter">
+              <div class="p-service__headinginner">
+                <div class="p-service__headingTitleWrap">
+                  <div class="p-service__headingTitle">Web制作</div>
+                  <div class="p-service__headingSubTitle">最新技術でしっかりサポート</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="p-service__example">
-        <div class="p-service__exampleHeading">導入事例</div>
-        <ul class="p-service__exampleList">
-          <li class="p-service__exampleListItem">Webサイト制作</li>
-          <li class="p-service__exampleListItem">Webサイト制作</li>
-          <li class="p-service__exampleListItem">Webサイト制作</li>
-          <li class="p-service__exampleListItem">Webサイト制作</li>
-        </ul>
+        <div class="p-service__contentsInner">
+          <ul class="p-service__problemLists">
+            <li class="p-service__problemListsItem">スマートフォン対応がしたい</li>
+            <li class="p-service__problemListsItem">SPAにしたい</li>
+            <li class="p-service__problemListsItem">複雑なサイトを技術で解決したい</li>
+            <li class="p-service__problemListsItem">SPAにしたい</li>
+          </ul>
+          <div class="p-service__description">
+            <h3 class="p-service__descriptionTitle">複雑化するシステム構築の課題を、 最新の制作技術でしっかりサポート</h3>
+            <div class="p-service__descriptionText">
+              <span class="text-blod">複雑化するシステム構築の課題</span>を、
+              <span class="text-blod">最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。
+              <span class="text-blod">Web制作に関するあらゆる相談に対応出来るよう、経験豊富なスタッフが親身に対応にあたります。</span>
+            </div>
+          </div>
+          <div class="p-service__example">
+            <div class="p-service__exampleHeading">導入事例</div>
+            <ul class="p-service__exampleList">
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+              <li class="p-service__exampleListItem">Webサイト制作</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -48,11 +93,31 @@
 <style lang="scss" scoped>
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
+  .p-service.is-dark {
+    background: #FAF7F7;
+
+    .p-service__exampleHeading {
+      background: #fff ;
+    }
+    .p-service__problemListsItem  {
+      background: #fff;
+      &::after {
+        border-color: #fff transparent transparent transparent;
+      }
+    }
+  }
   .p-service {
+    padding: 50px 0 30px;
+
     @include desktop {
-      @include c-container;
-      box-sizing: border-box;
-      margin-bottom: 60px;
+      padding: 80px 0 60px;
+    }
+
+    &__inner {
+      @include desktop {
+        @include c-container;
+        box-sizing: border-box;
+      }
     }
     &__heading {
       margin-bottom: 20px;
@@ -88,7 +153,7 @@
       }
     }
     &__headingBackgound {
-      background: url('/images/serviceHeading_create.jpg') no-repeat ;
+      background-repeat: no-repeat ;
       background-position: center;
       background-size: cover;
     }
