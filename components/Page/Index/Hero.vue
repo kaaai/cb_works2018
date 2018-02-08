@@ -161,6 +161,12 @@
       color: #393739;
       position: relative;
       z-index: 100;
+      transition: all .3s;
+
+      &:hover {
+        transform: translateY(-20px);
+        transition: all .3s;
+      }
 
       @include desktop {
         margin-bottom: 0;
