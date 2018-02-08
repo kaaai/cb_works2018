@@ -27,15 +27,15 @@
 
     .p-contact__info {
         font-size: 1.6rem;
-        padding: 1%;
+        padding: 2%;
         width: 100%;
         background-color: #fff;
-
-        //color: #C3504F;
-        color: black;
-
+        color: #C3504F;
         text-align: center;
         position: relative;
+        @include desktop {
+            padding: 1%;
+        }
 
         &::after {
             content: "";
@@ -43,19 +43,29 @@
             width: 0;
             height: 0;
             border-style: solid;
-            border-width: 40px 32px 0 32px;
+            border-width: 22px 16px 0 16px;
             border-color: #FFF transparent transparent transparent;
             position: absolute;
-            bottom: -40px;
-            left: 48%;
+            bottom: -20px;
+            left: 44%;
             -webkit-transform: translateX(-4px);
             transform: translateX(-4px);
+            @include desktop {
+                border-width: 40px 32px 0 32px;
+                bottom: -40px;
+                left: 48%;
+            }
         }
         span {
             background: url("/images/icon_mail.svg") no-repeat;
-            background-size: contain;
+            background-size: 11%;
             background-position: left;
-            padding-left: 2%;
+            padding-left: 7%;
+            @include desktop {
+                font-size: 1.4rem;
+                padding-left: 2%;
+                background-size: contain;
+            }
         }
     }
     .p-contact {
@@ -67,12 +77,17 @@
             @include c-container;
         }
         &__toChatbox {
-            font-size: 3rem;
+            font-size: 1.4rem;
             letter-spacing: .2em;
-            margin: 7% 0 5%;
+            line-height: 2;
+            margin: 15% 0 5%;
+            @include desktop {
+                font-size: 3rem;
+                margin: 7% 0 5%;
+            }
         }
         &__formContents {
-            @media screen and (min-width: 768px) {
+            @include desktop {
                 display: flex;
                 flex-direction: row;
                 padding: 0 3% 0 6%;
@@ -80,21 +95,31 @@
             }
         }
         &__tel {
-            font-size: 1.8rem;
-            padding: 1% 5%;
+            font-size: 1.4rem;
+            padding: 5% 0;
             letter-spacing: .1em;
+            line-height: 1.8;
+            @include desktop {
+                font-size: 1.8rem;
+                padding: 1% 5%;
+            }
             a {
                 font-weight: bold;
                 color: #FFF;
                 text-decoration: none;
-                font-size: 2.9rem;
+                font-size: 2.3rem;
                 letter-spacing: .2rem;
+                @include desktop {
+                    margin-bottom: 4%;
+                    font-size: 2.9rem;
+                }
             }
         }
         &__button {
             display: inline-block;
-            padding: 3rem;
-            width: 100%;
+            padding: 2rem;
+            width: 77%;
+            margin: 4% 0;
             text-align: center;
             border-radius: 4px;
             color: #C3504F;
@@ -105,7 +130,10 @@
             position: relative;
             transition: all .5s;
             @include desktop {
+                width: 100%;
                 max-width: 450px;
+                margin: 0;
+                padding: 4rem;
                 font-size: 2rem;
             }
             &:hover {
