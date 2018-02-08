@@ -11,33 +11,34 @@
           <span class="p-hero__catchCopySub">作るだけじゃなく、伝える、語り合う</span>
         </div>
         <div class="p-hero__lists">
+          <!--TODO .p-hero__listItemを繰り返す（テキストとサムネイルは入れ替え、beforeのcontentの数字は変更可能？）-->
           <a href="#" class="p-hero__listItem">
             <div class="p-hero__listItemHeading">Web制作</div>
-            <div class="p-hero__listItemThumb"></div>
+            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_create.jpg')"></div>
             <div class="p-hero__listItemDescription">
               <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
               <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
             </div>
           </a>
           <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">Web制作</div>
-            <div class="p-hero__listItemThumb" style="background: url('/images/serviceThumb_create.jpg')"></div>
+            <div class="p-hero__listItemHeading">システム制作</div>
+            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_system.jpg')"></div>
             <div class="p-hero__listItemDescription">
               <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
               <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
             </div>
           </a>
           <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">Web制作</div>
-            <div class="p-hero__listItemThumb"></div>
+            <div class="p-hero__listItemHeading">技術顧問制作</div>
+            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_support.jpg')"></div>
             <div class="p-hero__listItemDescription">
               <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
               <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
             </div>
           </a>
           <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">Web制作</div>
-            <div class="p-hero__listItemThumb"></div>
+            <div class="p-hero__listItemHeading">イベント・スクール</div>
+            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_event.jpg')"></div>
             <div class="p-hero__listItemDescription">
               <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
               <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
@@ -176,16 +177,16 @@
       }
 
       &::before {
+        content: "01";
         display: inline-block;
         border: 1px solid rgba(255,255,255,.5);
-        content: "01";
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
         text-align: center;
         line-height: 2.3;
         font-size: 1.4rem;
         color: #fff;
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
         background: #C3504F;
         position: absolute;
         top: -30px;
@@ -218,7 +219,7 @@
     }
     &__listItemThumb {
       width: 100%;
-      background: url('/images/serviceThumb_create.jpg') no-repeat;
+      background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       &::before {
