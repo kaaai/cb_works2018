@@ -18,5 +18,8 @@
   .p-contact {
     background: #C3504F;
     color: #fff;
+    &__inner {
+      @include c-container;
+    }
   }
 </style>
