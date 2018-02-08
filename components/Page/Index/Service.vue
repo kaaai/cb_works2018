@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--TODO .p-sectionを繰り返す。偶数のものには.is-coloredをつける（テキストとサムネイルは入れ替え、beforeのcontentの数字は変更可能？）-->
     <section class="p-service">
       <div class="p-service__inner">
         <div class="p-service__heading">
@@ -40,7 +41,8 @@
           </div>
         </div>
       </div>
-    </section><section class="p-service is-dark">
+    </section>
+    <section class="p-service is-colored">
       <div class="p-service__inner">
         <div class="p-service__heading">
           <div class="p-service__headingBackgound" style="background-image: url('/images/serviceHeading_create.jpg');">
@@ -92,7 +94,7 @@
 <style lang="scss" scoped>
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
-  .p-service.is-dark {
+  .p-service.is-colored {
     background: #FAF7F7;
 
     .p-service__exampleHeading {
