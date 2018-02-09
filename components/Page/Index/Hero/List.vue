@@ -1,5 +1,5 @@
 <template>
-    <a href="#" :class="mainClass">
+    <a :href="'#' + item.id" :class="mainClass" v-smooth-scroll>
         <div class="p-hero__listItemHeading">{{item.title}}</div>
         <div class="p-hero__listItemThumb" :style="thumbStyle"></div>
         <div class="p-hero__listItemDescription">
@@ -7,7 +7,6 @@
             <span class="p-hero__listItemDescriptionText">{{item.text}}</span>
         </div>
     </a>
-
 </template>
 
 
