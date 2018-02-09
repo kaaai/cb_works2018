@@ -29,28 +29,32 @@
             heading: 'hoge',
             text: 'hoge',
             number: 'num01',
-            thumbnail: '/images/serviceThumb_create.jpg'
+            thumbnail: '/images/serviceThumb_create.jpg',
+            id: 'web'
           },
           {
             title: 'hoge!',
             heading: 'hoge!!',
             text: 'hoge!!!!!!!!!!',
             number: 'num02',
-            thumbnail: '/images/serviceThumb_system.jpg'
+            thumbnail: '/images/serviceThumb_system.jpg',
+            id: 'system'
           },
           {
             title: 'hoge',
             heading: 'hoge',
             text: 'hoge',
             number: 'num03',
-            thumbnail: '/images/serviceThumb_support.jpg'
+            thumbnail: '/images/serviceThumb_support.jpg',
+            id: 'advise'
           },
           {
             title: 'hoge',
             heading: 'hoge',
             text: 'hoge',
             number: 'num04',
-            thumbnail: '/images/serviceThumb_event.jpg'
+            thumbnail: '/images/serviceThumb_event.jpg',
+            id: 'event'
           }
         ]
       }

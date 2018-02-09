@@ -1,5 +1,5 @@
 <template>
-    <section class="p-service" :class="colorClass">
+    <section :id="item.id" class="p-service" :class="colorClass">
         <div class="p-service__inner">
             <div class="p-service__heading" :class="numberClass">
                 <div class="p-service__headingBackgound" :style="thumbStyle">
