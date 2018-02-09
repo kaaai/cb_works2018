@@ -30,6 +30,7 @@
 
 <style lang="scss" scoped>
   @import "~assets/scss/object/component/_container.scss";
+  @import "~assets/scss/layout/_layout.scss";
 
   .p-footerArea{
     border-top: 2px solid #C3504F;
