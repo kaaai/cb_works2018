@@ -15,26 +15,18 @@
             </div>
             <div class="p-service__contentsInner">
                 <ul class="p-service__problemLists">
-                    <li class="p-service__problemListsItem">スマートフォン対応がしたい</li>
-                    <li class="p-service__problemListsItem">SPAにしたい</li>
-                    <li class="p-service__problemListsItem">複雑なサイトを技術で解決したい</li>
-                    <li class="p-service__problemListsItem">SPAにしたい</li>
+                    <li class="p-service__problemListsItem" v-for="balloon in item.balloons">{{ balloon }}</li>
                 </ul>
                 <div class="p-service__description">
-                    <h3 class="p-service__descriptionTitle">複雑化するシステム構築の課題を、 最新の制作技術でしっかりサポート</h3>
+                    <h3 class="p-service__descriptionTitle">{{ item.heading }}</h3>
                     <div class="p-service__descriptionText">
-                        <span class="text-blod">複雑化するシステム構築の課題</span>を、
-                        <span class="text-blod">最新の制作技術でしっかりサポート</span>多様化するニーズや、複雑化するシステム構築の課題を、最新の制作技術でしっかりサポート。
-                        <span class="text-blod">Web制作に関するあらゆる相談に対応出来るよう、経験豊富なスタッフが親身に対応にあたります。</span>
+                        <span class="p-service__descriptionAPartOfText" v-for="text in item.texts">{{ text }}</span>
                     </div>
                 </div>
                 <div class="p-service__example">
                     <div class="p-service__exampleHeading">導入事例</div>
                     <ul class="p-service__exampleList">
-                        <li class="p-service__exampleListItem">Webサイト制作</li>
-                        <li class="p-service__exampleListItem">Webサイト制作</li>
-                        <li class="p-service__exampleListItem">Webサイト制作</li>
-                        <li class="p-service__exampleListItem">Webサイト制作</li>
+                        <li class="p-service__exampleListItem" v-for="example in item.examples">{{ example }}</li>
                     </ul>
                 </div>
             </div>
@@ -254,6 +246,9 @@
             @include desktop {
                 font-size: 1.6rem;
             }
+        }
+        &__descriptionAPartOfText:nth-child(odd) {
+            font-weight: bold;
         }
         &__example {
             display: flex;
