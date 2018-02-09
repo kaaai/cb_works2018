@@ -12,13 +12,13 @@
   @import "~assets/scss/layout/_layout.scss";
   .p-header{
     &--triangle{
-      z-index: 1000;
       position: fixed;
       top: 0;
       left: 0;
       border: 30px solid transparent;
       border-top: 30px solid #c2504f;
       border-left: 30px solid #c2504f;
+      z-index: 100000;
       &::after {
         content: "";
         display: inline-block;

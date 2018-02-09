@@ -1,8 +1,8 @@
 <template>
     <section class="p-contact">
-        <div class="p-contact__info">
-            <span>お問合わせはこちら</span>
-        </div>
+        <a href="" class="p-contact__info">
+            <span class="p-contact__infoText">お問合わせはこちら</span>
+        </a>
         <div class="p-contact__inner">
             <div class="p-contact__toChatbox">Webにまつわるお悩み、<br>ご相談はお気軽にchatboxまで。</div>
             <div class="p-contact__formContents">
@@ -25,19 +25,15 @@
     @import "~assets/scss/layout/_layout.scss";
     @import "~assets/scss/object/component/_container.scss";
 
-    .p-contact__info {
-        font-size: 1.6rem;
-        padding: 2%;
-        width: 100%;
-        background-color: #fff;
-        color: #C3504F;
+    .p-contact {
+        padding-top: 40px;
+        padding-bottom: 60px;
         text-align: center;
+        background: #C3504F;
+        color: #fff;
         position: relative;
-        @include desktop {
-            padding: 1%;
-        }
 
-        &::after {
+        &::before {
             content: "";
             display: inline-block;
             width: 0;
@@ -46,33 +42,60 @@
             border-width: 22px 16px 0 16px;
             border-color: #FFF transparent transparent transparent;
             position: absolute;
-            bottom: -20px;
-            left: 44%;
-            -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+            top: 0;
+            left: 50%;
+            transform: translateX(-11px);
             @include desktop {
                 border-width: 40px 32px 0 32px;
-                bottom: -40px;
-                left: 48%;
+                transform: translateX(-20px);
             }
         }
-        span {
-            background: url("/images/icon_mail.svg") no-repeat;
-            background-size: 11%;
-            background-position: left;
-            padding-left: 7%;
+
+        &__info {
+            display: block;
+            padding: 20px 0;
+            width: 100%;
+            font-size: 1.6rem;
+            color: #C3504F;
+            text-align: center;
+            text-decoration: none;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+            z-index: 10000;
+            transition: all .3s;
+
             @include desktop {
-                font-size: 1.4rem;
-                padding-left: 2%;
-                background-size: contain;
+                font-size: 1.8rem;
+            }
+            &:hover {
+                background: #C3504F;
+                color: #fff;
+                transition: all .3s;
+                .p-contact__infoText {
+                    &::before {
+                        background: url("/images/icon_mail-white.svg") no-repeat center;
+                    }
+                }
             }
         }
-    }
-    .p-contact {
-        background: #C3504F;
-        color: #fff;
-        text-align: center;
-        padding: 0 0 6% 0;
+        &__infoText {
+            display: inline-block;
+            padding-left: 3rem;
+            position: relative;
+            &::before {
+                display: inline-block;
+                content: "";
+                width: 2rem;
+                height: 2rem;
+                background: url("/images/icon_mail.svg") no-repeat center;
+                background-size: contain;
+                position: absolute;
+                top: 50%;
+                left: .2rem;
+                transform: translateY(-1rem);
+            }
+        }
         &__inner {
             @include c-container;
         }

@@ -11,39 +11,7 @@
           <span class="p-hero__catchCopySub">作るだけじゃなく、伝える、語り合う</span>
         </div>
         <div class="p-hero__lists">
-          <!--TODO .p-hero__listItemを繰り返す（テキストとサムネイルは入れ替え、beforeのcontentの数字は変更可能？）-->
-          <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">Web制作</div>
-            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_create.jpg')"></div>
-            <div class="p-hero__listItemDescription">
-              <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
-              <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
-            </div>
-          </a>
-          <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">システム制作</div>
-            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_system.jpg')"></div>
-            <div class="p-hero__listItemDescription">
-              <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
-              <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
-            </div>
-          </a>
-          <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">技術顧問制作</div>
-            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_support.jpg')"></div>
-            <div class="p-hero__listItemDescription">
-              <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
-              <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
-            </div>
-          </a>
-          <a href="#" class="p-hero__listItem">
-            <div class="p-hero__listItemHeading">イベント・スクール</div>
-            <div class="p-hero__listItemThumb" style="background-image: url('/images/serviceThumb_event.jpg')"></div>
-            <div class="p-hero__listItemDescription">
-              <div class="p-hero__listItemDescriptionTitle">最新技術でしっかりサポート</div>
-              <span class="p-hero__listItemDescriptionText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</span>
-            </div>
-          </a>
+          <hero-list :item="item" :index="index" v-for="(item,index) in listItems"></hero-list>
         </div>
       </div>
     </div>
@@ -51,14 +19,51 @@
 </template>
 
 <script>
+  import HeroList from './Hero/List.vue'
   export default {
+    data () {
+      return {
+        listItems: [
+          {
+            title: 'hoge',
+            heading: 'hoge',
+            text: 'hoge',
+            number: 'num01',
+            thumbnail: '/images/serviceThumb_create.jpg'
+          },
+          {
+            title: 'hoge!',
+            heading: 'hoge!!',
+            text: 'hoge!!!!!!!!!!',
+            number: 'num02',
+            thumbnail: '/images/serviceThumb_system.jpg'
+          },
+          {
+            title: 'hoge',
+            heading: 'hoge',
+            text: 'hoge',
+            number: 'num03',
+            thumbnail: '/images/serviceThumb_support.jpg'
+          },
+          {
+            title: 'hoge',
+            heading: 'hoge',
+            text: 'hoge',
+            number: 'num04',
+            thumbnail: '/images/serviceThumb_event.jpg'
+          }
+        ]
+      }
+    },
+    components: {
+      HeroList
+    }
   }
 </script>
 <style lang="scss" scoped>
   @import "~assets/scss/layout/_layout.scss";
   @import "~assets/scss/object/component/_container.scss";
   .p-hero {
-
     &__title {
       margin-bottom: 2.5rem;
       color: #C3504F;
@@ -146,101 +151,6 @@
       @include desktop {
         flex-wrap: nowrap;
       }
-    }
-    &__listItem {
-      display: block;
-      border-top: 3px solid #C3504F;
-      margin-bottom: 40px;
-      width: 48%;
-      background: #faf7f7;
-      text-decoration: none;
-      color: #393739;
-      position: relative;
-      z-index: 100;
-      transition: all .3s;
-
-      &:hover {
-        transform: translateY(-15px);
-        transition: all .3s;
-      }
-
-      @include desktop {
-        margin-bottom: 0;
-        width: 250px;
-        max-width: 250px;
-        z-index: 0;
-      }
-
-      &::before {
-        content: "01";
-        display: inline-block;
-        border: 1px solid rgba(255,255,255,.5);
-        border-radius: 100%;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        line-height: 2.3;
-        font-size: 1.4rem;
-        color: #fff;
-        background: #C3504F;
-        position: absolute;
-        top: -30px;
-        left: 50%;
-        transform: translateX(-25px);
-        z-index: -10;
-        @include desktop {
-          border: none;
-          width: 70px;
-          height: 70px;
-          font-size: 2rem;
-          top: -40px;
-          left: 50%;
-          transform: translateX(-35px);
-          z-index: -10;
-        }
-      }
-    }
-    &__listItemHeading {
-      text-align: center;
-      padding: 1.4rem;
-      font-size: 1.7rem;
-      font-weight: bold;
-      background: #faf7f7;
-
-      @include desktop {
-        padding: 2rem;
-        font-size: 1.8rem;
-      }
-    }
-    &__listItemThumb {
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      &::before {
-        content: "";
-        display: block;
-        padding-top: 50%;
-      }
-    }
-    &__listItemDescription {
-      padding: 1.7rem;
-      @include desktop {
-        padding: 2rem;
-      }
-    }
-    &__listItemDescriptionTitle {
-      margin-bottom: 1rem;
-      text-align: center;
-      font-size: 1.4rem;
-      font-weight: bold;
-      @include desktop {
-        margin-bottom: 1.5rem;
-        font-size: 1.6rem;
-      }
-    }
-    &__listItemDescriptionText {
-      line-height: 1.8;
     }
 
   }
