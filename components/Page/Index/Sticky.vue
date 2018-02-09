@@ -31,10 +31,16 @@
                 & > a {
                     color: #fff;
                 }
+
+                & > a::before {
+                    background: url("/images/icon_mail-white.svg") no-repeat center;
+                }
             }
         }
 
         &__info {
+            padding-left: 3rem;
+            position: relative;
             font-size: 1.6rem;
             color: #C3504F;
             text-decoration: none;
@@ -42,12 +48,7 @@
             @include desktop {
                 font-size: 1.8rem;
             }
-        }
 
-        &__infoText {
-
-            padding-left: 3rem;
-            position: relative;
             &::before {
                 display: inline-block;
                 content: "";
