@@ -25,32 +25,36 @@
       return {
         listItems: [
           {
-            title: 'hoge',
-            heading: 'hoge',
-            text: 'hoge',
+            title: 'Web制作',
+            heading: '最新技術でしっかりサポート',
+            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
             number: 'num01',
-            thumbnail: '/images/serviceThumb_create.jpg'
+            thumbnail: '/images/serviceThumb_create.jpg',
+            id: 'web'
           },
           {
-            title: 'hoge!',
-            heading: 'hoge!!',
-            text: 'hoge!!!!!!!!!!',
+            title: 'システム開発!',
+            heading: '最新技術でしっかりサポート',
+            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
             number: 'num02',
-            thumbnail: '/images/serviceThumb_system.jpg'
+            thumbnail: '/images/serviceThumb_system.jpg',
+            id: 'system'
           },
           {
-            title: 'hoge',
-            heading: 'hoge',
-            text: 'hoge',
+            title: '技術顧問',
+            heading: '最新技術でしっかりサポート',
+            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
             number: 'num03',
-            thumbnail: '/images/serviceThumb_support.jpg'
+            thumbnail: '/images/serviceThumb_support.jpg',
+            id: 'advise'
           },
           {
-            title: 'hoge',
-            heading: 'hoge',
-            text: 'hoge',
+            title: 'イベント',
+            heading: '最新技術でしっかりサポート',
+            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
             number: 'num04',
-            thumbnail: '/images/serviceThumb_event.jpg'
+            thumbnail: '/images/serviceThumb_event.jpg',
+            id: 'event'
           }
         ]
       }

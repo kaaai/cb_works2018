@@ -1,8 +1,5 @@
 <template>
     <section class="p-contact">
-        <a href="" class="p-contact__info">
-            <span class="p-contact__infoText">お問合わせはこちら</span>
-        </a>
         <div class="p-contact__inner">
             <div class="p-contact__toChatbox">Webにまつわるお悩み、<br>ご相談はお気軽にchatboxまで。</div>
             <div class="p-contact__formContents">
