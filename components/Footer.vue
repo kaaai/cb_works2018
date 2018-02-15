@@ -1,5 +1,10 @@
 <template>
   <div class="p-footerArea">
+    <div class="p-footer--pageTop">
+      <a href="#top" v-smooth-scroll>
+        <img class="p-footer--pageTopImg" src="/images/pagetop.svg" alt="">
+      </a>
+    </div>
     <div class="p-footer">
       <div class="p-footer--inner">
         <nav class="p-navi">
@@ -31,10 +36,15 @@
 <style lang="scss" scoped>
   @import "~assets/scss/object/component/_container.scss";
   @import "~assets/scss/layout/_layout.scss";
+  @import "~assets/scss/object/component/_title.scss";
 
   .p-footerArea{
+    margin-top: 5em;
     border-top: 2px solid #C3504F;
     background-color: #FAF7F7;
+    @include desktop() {
+      margin-top: 100px;
+    }
   }
 
   .p-footer{
@@ -46,16 +56,18 @@
     }
 
     &--pageTop {
+      @include c-container;
       position: relative;
     }
     &--pageTopImg {
+      display: inline-block;
       width: 20px;
       height: auto;
       position: absolute;
       bottom : 20px;
       right: 20px;
-      @include desktop() {
-        right: 150px;
+      @include desktop {
+        right: 0;
       }
     }
     &--body{
