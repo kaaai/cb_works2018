@@ -7,8 +7,8 @@
       </div>
       <div class="p-hero__contents">
         <div class="p-hero__catchCopy">
-          <h3 class="p-hero__catchCopyMain">「作る」だけじゃなく、<br>「伝える」「語り合う」</h3>
-          <span class="p-hero__catchCopySub">作るだけじゃなく、伝える、語り合う</span>
+          <h3 class="p-hero__catchCopyMain">「Webのこれからを<br>「伝える」「語り合う」</h3>
+          <span class="p-hero__catchCopySub">作るだけじゃなく、伝えることで見えてくる</span>
         </div>
         <div class="p-hero__lists">
           <hero-list :item="item" :index="index" v-for="(item,index) in listItems"></hero-list>
@@ -26,32 +26,32 @@
         listItems: [
           {
             title: 'Web制作',
-            heading: '最新技術でしっかりサポート',
-            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
+            heading: '企画から制作まで',
+            text: 'コーポレートやキャンペーンなどWebサイト制作の多様なニーズに対し、デザインから制作・運用までニーズに合ったトータルサポートで親身に対応させていただきます。',
             number: 'num01',
             thumbnail: '/images/serviceThumb_create.jpg',
             id: 'web'
           },
           {
-            title: 'システム開発!',
-            heading: '最新技術でしっかりサポート',
-            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
+            title: 'システム開発',
+            heading: '高品質・低コスト',
+            text: '業務フローの改善から、複雑な要件定義のサポートまで、制作フローの問題を解決します。多くの経験とノウハウで客様にベストなシステム開発を提供します。',
             number: 'num02',
             thumbnail: '/images/serviceThumb_system.jpg',
             id: 'system'
           },
           {
             title: '技術顧問',
-            heading: '最新技術でしっかりサポート',
-            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
+            heading: '制作現場の技術力向上をサポート',
+            text: '現場のニーズに応じたカリキュラム設計、プロジェクト管理や現場の相談役として技術指導します。',
             number: 'num03',
             thumbnail: '/images/serviceThumb_support.jpg',
             id: 'advise'
           },
           {
             title: 'イベント',
-            heading: '最新技術でしっかりサポート',
-            text: 'この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。',
+            heading: '職場がスクールに',
+            text: '現場の業務ニーズに合わせた柔軟なカリキュラム構成で、スクールを随時開催。最新技術や勉強会の開催で持続的な成長力をもたらします。',
             number: 'num04',
             thumbnail: '/images/serviceThumb_event.jpg',
             id: 'event'
