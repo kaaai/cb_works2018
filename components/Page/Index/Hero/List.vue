@@ -69,7 +69,7 @@
                 color: #fff;
                 background: #C3504F;
                 position: absolute;
-                top: -30px;
+                top: -27px;
                 left: 50%;
                 transform: translateX(-25px);
                 z-index: -10;
