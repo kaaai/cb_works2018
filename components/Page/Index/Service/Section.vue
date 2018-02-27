@@ -176,37 +176,43 @@
             @include c-container;
         }
         &__problemLists {
+            width: 100%;
             display: flex;
-            justify-content: space-between;
             box-sizing: border-box;
             margin-bottom: 15px;
             align-items: flex-start;
             flex-wrap: wrap;
+            justify-content:space-between;
+            align-items:flex-start;
             @include desktop {
                 flex-wrap: nowrap;
+                justify-content: space-between;
                 margin-bottom: 20px;
             }
         }
         &__problemListsItem  {
             margin: 0 1px;
             padding: 1.3rem 2.5rem;
-            width: auto;
+            max-width: 48%;
             text-align: center;
             font-size: 1.1rem;
             font-weight: bold;
             border-radius: 4px;
             background: #fbf3f3;
+            box-sizing: border-box;
             position: relative;
+
+            @include desktop {
+                width: auto;
+                margin: 0 2px;
+                margin-bottom: 0;
+                font-size: 1.5rem;
+            }
 
             &:not(:last-of-type){
                 margin-bottom: 2rem;
             }
 
-            @include desktop {
-                margin: 0 2px;
-                margin-bottom: 0;
-                font-size: 1.5rem;
-            }
 
             &::after {
                 content: "";
