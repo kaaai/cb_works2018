@@ -7,7 +7,7 @@
       </div>
       <div class="p-hero__contents">
         <div class="p-hero__catchCopy">
-          <h3 class="p-hero__catchCopyMain">「Webのこれからを<br>「伝える」「語り合う」</h3>
+          <h3 class="p-hero__catchCopyMain">Webのこれからを<br>「伝える」「語り合う」</h3>
           <span class="p-hero__catchCopySub">作るだけじゃなく、伝えることで見えてくる</span>
         </div>
         <div class="p-hero__lists">
@@ -84,7 +84,7 @@
 
     &__wrap {
       background-color: #C3504F;
-      min-height: 760px;
+      min-height: 830px;
       position: relative;
     }
     &__backgound  {
