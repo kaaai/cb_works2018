@@ -159,6 +159,7 @@
             font-size: 2.5rem;
             font-weight: bold;
             @include desktop {
+                padding-top: 2.4rem;
                 display: inline-block;
                 font-size: 3rem;
             }
@@ -168,8 +169,10 @@
             margin-left: 0;
             font-size: 1.4rem;
             @include desktop {
+                font-size: 1.5rem;
                 display: inline-block;
                 margin-left: 1.5rem;
+                vertical-align: 5px;
             }
         }
         &__contentsInner{
