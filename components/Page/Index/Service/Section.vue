@@ -195,8 +195,9 @@
             padding: 1.3rem 2.5rem;
             max-width: 48%;
             text-align: center;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: bold;
+            line-height: 1.6;
             border-radius: 4px;
             background: #fbf3f3;
             box-sizing: border-box;
@@ -248,7 +249,7 @@
         }
         &__descriptionText {
             line-height: 2.3;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             @include desktop {
                 font-size: 1.6rem;
             }
