@@ -254,9 +254,6 @@
                 font-size: 1.6rem;
             }
         }
-        &__descriptionAPartOfText:nth-child(odd) {
-            font-weight: bold;
-        }
         &__example {
             display: flex;
             margin-bottom: 40px;
