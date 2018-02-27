@@ -1,5 +1,5 @@
 <template>
-    <section class="p-contact">
+    <section class="p-contact" id="contact">
         <div class="p-contact__inner">
             <div class="p-contact__toChatbox">Webにまつわるお悩み、<br>ご相談はお気軽にchatboxまで。</div>
             <div class="p-contact__formContents">

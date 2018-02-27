@@ -1,6 +1,6 @@
 <template>
     <div class="p-contact__infoWrapper">
-        <a href="" class="p-contact__info">
+        <a href="#contact" class="p-contact__info" v-smooth-scroll>
             <span class="p-contact__infoText">お問合わせはこちら</span>
         </a>
     </div>
@@ -28,18 +28,19 @@
                 background: #C3504F;
                 transition: all .3s;
 
-                & > a {
+                & > a > span {
                     color: #fff;
                 }
 
-                & > a::before {
+                & > a > span::before {
                     background: url("/images/icon_mail-white.svg") no-repeat center;
                 }
             }
         }
 
         &__info {
-            padding-left: 3rem;
+            display: inline-block;
+            width: 100%;
             position: relative;
             font-size: 1.6rem;
             color: #C3504F;
@@ -48,18 +49,22 @@
             @include desktop {
                 font-size: 1.8rem;
             }
+        }
 
+        &__infoText {
             &::before {
                 display: inline-block;
                 content: "";
-                width: 2rem;
-                height: 2rem;
+                width: 1.8rem;
+                height: 1.8rem;
                 background: url("/images/icon_mail.svg") no-repeat center;
                 background-size: contain;
-                position: absolute;
-                top: 50%;
-                left: .2rem;
-                transform: translateY(-1rem);
+                transform: translate(-0.5rem, .3rem);
+                @include desktop {
+                    width: 2rem;
+                    height: 2rem;
+                    transform: translate(-0.5rem, .35rem);
+                }
             }
         }
     }
