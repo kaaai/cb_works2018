@@ -160,7 +160,7 @@
                 opacity: .8;
                 transition: all .5s;
                 &::before {
-                    right: .2rem;
+                    right: 1rem;
                     transition: all .5s;
                 }
             }
