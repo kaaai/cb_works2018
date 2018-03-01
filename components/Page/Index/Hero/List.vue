@@ -37,7 +37,7 @@ export default {
     display: block;
     border-top: 3px solid #c3504f;
     margin-bottom: 40px;
-    width: 48%;
+    width: 48.5%;
     background: #faf7f7;
     text-decoration: none;
     color: #393739;
@@ -105,7 +105,7 @@ export default {
     background: #faf7f7;
 
     @include desktop {
-      padding: 2rem;
+      padding: 1.6rem;
       font-size: 1.8rem;
     }
   }
@@ -121,7 +121,7 @@ export default {
     }
   }
   &__listItemDescription {
-    padding: 1.7rem;
+    padding: 1.5rem 1.5rem 2rem;;
     @include desktop {
       padding: 2rem;
     }

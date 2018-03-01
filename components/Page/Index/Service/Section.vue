@@ -285,12 +285,13 @@ export default {
     margin-bottom: 1rem;
     padding: 1rem 4rem;
     width: 100%;
+    min-width: 160px;
     background: #fbf3f3;
     text-align: center;
     font-size: 1.4rem;
     @include desktop {
       margin-bottom: 0;
-      padding: 1rem 4rem;
+      padding: 1.6rem 4rem;
       width: auto;
       font-weight: normal;
     }

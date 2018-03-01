@@ -51,7 +51,7 @@ export default {
   }
 
   &__wrap {
-    min-height: 830px;
+    min-height: 920px;
     background-color: #c3504f;
     position: relative;
   }
@@ -64,6 +64,7 @@ export default {
     background-position: top;
     background-size: cover;
     @include desktop {
+      margin-bottom: 0;
       height: 450px;
       background-position: center;
       background: url("/images/hero_background.jpg") no-repeat;
@@ -76,6 +77,7 @@ export default {
   }
   &__contents {
     @include c-container;
+    padding: 0 10px;
     padding-top: 30px;
     display: block;
     position: static;
