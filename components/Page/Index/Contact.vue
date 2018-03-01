@@ -3,7 +3,7 @@
         <div class="p-contact__inner">
             <div class="p-contact__toChatbox">Webにまつわるお悩み、<br>ご相談はお気軽にchatboxまで。</div>
             <div class="p-contact__formContents">
-                <a class="p-contact__button" href="/contact">お問い合わせフォームへ </a>
+                <a class="p-contact__button" href="https://chatbox-inc.com/contact/" target="_blank">お問い合わせフォームへ </a>
                 <div class="p-contact__tel">
                     <p>お電話でのお問い合わせ</p>
                     <a href="tel:050-3555-1212">050-3555-1212</a>
