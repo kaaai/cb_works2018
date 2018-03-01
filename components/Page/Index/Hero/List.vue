@@ -40,7 +40,7 @@ export default {
     width: 48.5%;
     background: #faf7f7;
     text-decoration: none;
-    color: #393739;
+    color: #4d4b4d;
     position: relative;
     z-index: 100;
     transition: all 0.3s;
