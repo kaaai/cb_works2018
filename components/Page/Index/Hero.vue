@@ -7,7 +7,7 @@
       </div>
       <div class="p-hero__contents">
         <div class="p-hero__catchCopy">
-          <h3 class="p-hero__catchCopyMain">Webのこれからを<br>「作る」「伝える」「語り合う」</h3>
+          <h3 class="p-hero__catchCopyMain">Webのこれからを<br>「作る」&nbsp;「伝える」&nbsp;「語り合う」</h3>
           <span class="p-hero__catchCopySub">作るだけじゃなく、伝えることで見えてくる</span>
         </div>
         <div class="p-hero__lists">
@@ -51,18 +51,22 @@ export default {
   }
 
   &__wrap {
-    background-color: #c3504f;
     min-height: 830px;
+    background-color: #c3504f;
     position: relative;
   }
   &__backgound {
-    display: none;
-
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url("/images/serviceThumb_create.jpg") no-repeat;
+    background-position: top;
+    background-size: cover;
     @include desktop {
-      display: block;
       height: 450px;
-      background: url("/images/hero_background.jpg") no-repeat;
       background-position: center;
+      background: url("/images/hero_background.jpg") no-repeat;
       background-size: cover;
     }
   }
@@ -86,23 +90,30 @@ export default {
     }
   }
   &__catchCopy {
+    display: inline-block;
     margin-bottom: 55px;
+    padding-top: 50px;
+    min-width: 100%;
     text-align: center;
     color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
     @include desktop {
       margin-bottom: 80px;
+      position: static;
     }
   }
   &__catchCopyMain {
     display: block;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     color: inherit;
     line-height: 1.8;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     @include desktop {
       font-size: 3rem;
       margin-bottom: 30px;
