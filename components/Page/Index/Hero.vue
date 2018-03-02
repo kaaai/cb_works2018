@@ -102,7 +102,8 @@ export default {
     top: 0;
     left: 0;
     @include desktop {
-      margin-bottom: 80px;
+      padding-top: 20px;
+      margin-bottom: 90px;
       position: static;
     }
   }
